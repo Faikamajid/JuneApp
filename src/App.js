@@ -7,6 +7,7 @@ import ChildTwo from './ChildTwo';
 import TestRedux from './TestRedux';
 import store from './ReduxStore/store';
 import Counter from './Counter';
+import FetchData from './FetchDataComp';
 
 function App() {
   const [name,setName]=useState('first name')
@@ -30,6 +31,8 @@ function App() {
       {/* <TestRedux/> */}
       {/* part B Counter  */}
      <Counter />
+     {/* showing component to fetch data */}
+     <FetchData/>
      
     </div>
     // </Provider>
