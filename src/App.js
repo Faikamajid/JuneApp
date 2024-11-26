@@ -33,6 +33,7 @@ function App() {
      <Counter />
      {/* showing component to fetch data */}
      <FetchData/>
+     successfully deployed to github pages
      
     </div>
     // </Provider>
