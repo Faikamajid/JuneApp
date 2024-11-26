@@ -1,4 +1,4 @@
-import React,{memo} from "react";
+import React from "react";
 import {useSelector,useDispatch,connect} from 'react-redux'
 import { buyCake } from "./ReduxStore/iceCream/action";
 function TestRedux(props) {
