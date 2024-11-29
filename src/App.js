@@ -14,6 +14,7 @@ import { streamData } from './Data/StreamChartData';
 import CardComp from './MaterialUi/CardComp'
 import ShowData from './ShowData';
 import CustomHeaderComp from './CustomHeaderComp';
+import WriteComp from './WriteComp';
 
 function App() {
   const [name,setName]=useState('first name')
@@ -43,7 +44,7 @@ function App() {
 
          {/* using top header component  */}
    <CustomHeaderComp changeTabOption={changeTabOption}/>
-
+    <WriteComp/>
    {tabValue==='Charts'?<MyProjects/>:tabValue==='Counter'?<Counter/>:tabValue==='Cards'?<div><ShowData /></div>:<></>}
 
 
