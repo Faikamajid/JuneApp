@@ -8,16 +8,27 @@ import TestRedux from './TestRedux';
 import store from './ReduxStore/store';
 import Counter from './Counter';
 import FetchData from './FetchDataComp';
+import MyProjects from './MyProjects';
+import { MyResponsiveStream } from './Charts/streamChart';
+import { streamData } from './Data/StreamChartData';
+import CardComp from './MaterialUi/CardComp'
+import ShowData from './ShowData';
+import CustomHeaderComp from './CustomHeaderComp';
 
 function App() {
   const [name,setName]=useState('first name')
   const [secondname,setSecondName]=useState('first name')
+  const [tabValue,setTabValue]=useState('Charts')
   const changeName=(name)=>{
     setName(name)
   }
   const changeSecondName=()=>{
     console.log('second function chnage')
     setSecondName('secoond naem')
+  }
+  const changeTabOption=(value)=>{
+ setTabValue(value)
+ console.log('changing val',value)
   }
   return (
   // <Provider store={store}>
@@ -29,12 +40,32 @@ function App() {
       {/* <ChildComp/>
       <ChildTwo changeName={changeName}/> */}
       {/* <TestRedux/> */}
+
+         {/* using top header component  */}
+   <CustomHeaderComp changeTabOption={changeTabOption}/>
+
+   {tabValue==='Charts'?<MyProjects/>:tabValue==='Counter'?<Counter/>:tabValue==='Cards'?<div><ShowData /></div>:<></>}
+
+
       {/* part B Counter  */}
-     <Counter />
+     {/* <Counter /> */}
+
+
+   
+
      {/* showing component to fetch data */}
-     <FetchData/>
-     successfully deployed to github pages
+     {/* <FetchData/> */}
+    
      
+
+     {/* import new comp projects */}
+     {/* <MyProjects/> */}
+     
+
+     {/* using material ui card */}
+     {/* <ShowData /> */}
+  
+
     </div>
     // </Provider>
     );
