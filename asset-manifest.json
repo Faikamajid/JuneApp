@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/JuneApp/static/css/main.f855e6bc.css",
-    "main.js": "/JuneApp/static/js/main.5196a7ca.js",
-    "static/js/453.f48b547e.chunk.js": "/JuneApp/static/js/453.f48b547e.chunk.js",
+    "main.js": "/JuneApp/static/js/main.a55e8087.js",
+    "static/js/453.64792762.chunk.js": "/JuneApp/static/js/453.64792762.chunk.js",
+    "static/media/PoliciesPage.png": "/JuneApp/static/media/PoliciesPage.f901283660b9f5591361.png",
+    "static/media/UsagePage.png": "/JuneApp/static/media/UsagePage.a230118d64fc00faa99b.png",
+    "static/media/BillingPage.png": "/JuneApp/static/media/BillingPage.2ab8f97a7302f20be1f3.png",
+    "static/media/ProjectPage.png": "/JuneApp/static/media/ProjectPage.b7d8f91eeec7974d8773.png",
     "static/media/logo.svg": "/JuneApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/JuneApp/index.html",
     "main.f855e6bc.css.map": "/JuneApp/static/css/main.f855e6bc.css.map",
-    "main.5196a7ca.js.map": "/JuneApp/static/js/main.5196a7ca.js.map",
-    "453.f48b547e.chunk.js.map": "/JuneApp/static/js/453.f48b547e.chunk.js.map"
+    "main.a55e8087.js.map": "/JuneApp/static/js/main.a55e8087.js.map",
+    "453.64792762.chunk.js.map": "/JuneApp/static/js/453.64792762.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.5196a7ca.js"
+    "static/js/main.a55e8087.js"
   ]
 }
