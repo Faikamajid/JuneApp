@@ -45,7 +45,7 @@ export default function CallData() {
                   <tr>
                     <th> {field.title}</th>
                     <th> {field.description}</th>
-                  </tr>
+                  </tr> 
                   <tr></tr>
                 </>
               );
