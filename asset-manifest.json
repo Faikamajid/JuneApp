@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JuneApp/static/css/main.f855e6bc.css",
-    "main.js": "/JuneApp/static/js/main.6016aa3b.js",
+    "main.js": "/JuneApp/static/js/main.f2dbd92a.js",
     "static/js/453.64792762.chunk.js": "/JuneApp/static/js/453.64792762.chunk.js",
     "static/media/PoliciesPage.png": "/JuneApp/static/media/PoliciesPage.f901283660b9f5591361.png",
     "static/media/UsagePage.png": "/JuneApp/static/media/UsagePage.a230118d64fc00faa99b.png",
@@ -9,11 +9,11 @@
     "static/media/ProjectPage.png": "/JuneApp/static/media/ProjectPage.b7d8f91eeec7974d8773.png",
     "index.html": "/JuneApp/index.html",
     "main.f855e6bc.css.map": "/JuneApp/static/css/main.f855e6bc.css.map",
-    "main.6016aa3b.js.map": "/JuneApp/static/js/main.6016aa3b.js.map",
+    "main.f2dbd92a.js.map": "/JuneApp/static/js/main.f2dbd92a.js.map",
     "453.64792762.chunk.js.map": "/JuneApp/static/js/453.64792762.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.6016aa3b.js"
+    "static/js/main.f2dbd92a.js"
   ]
 }
