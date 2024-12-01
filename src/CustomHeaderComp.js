@@ -3,7 +3,6 @@ import MyButton from "./MaterialUi/Buttons";
 import { Tabs, Tab } from "@mui/material";
 import { pink } from '@mui/material/colors';
 
-
 export default function CustomHeaderComp({ changeTabOption }) {
   const [value, setTabValue] = useState("Charts");
   const handleChange = (event, newValue) => {
@@ -14,11 +13,12 @@ export default function CustomHeaderComp({ changeTabOption }) {
   return (
     <div
       style={{
+        display:'flex',
+        justifyContent:'end',
         width: "100%",
         position: "relative",
         float: "left",
         color: "CaptionText",
-        height: "78px",
         backgroundColor: "#c000ff63",
       }}
     >
@@ -29,11 +29,16 @@ export default function CustomHeaderComp({ changeTabOption }) {
         onChange={handleChange}
         textColor="secondary"
         indicatorColor="secondary"
-        aria-label="secondary tabs example"
+        variant="scrollable"
+        scrollButtons={true}
+        allowScrollButtonsMobile
       >
         <Tab value="Cards" label="Cards" sx={{color:'white'}} />
         <Tab value="Counter" label="Counter"  sx={{color:'white'}}  />
         <Tab value="Charts" label="Charts"   sx={{color:'white'}} />
+        <Tab value="Users" label="All Users"   sx={{color:'white'}} />
+        <Tab value="AddUser" label="Add User"   sx={{color:'white'}} />
+        <Tab value="UpdateUsersDetail" label="Update Info"   sx={{color:'white'}} />
       </Tabs>
     </div>
   );

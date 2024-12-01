@@ -15,53 +15,23 @@ export default function MyProjects() {
   }
   return (
     <>
-      {showProjects ? (
+      {
         <div
           key={showProjects}
           style={{ position: "relative", float: "left", width: "100%" }}
         >
           {/* <img src={logos.logo1}/> */}
           {/* chart section */}
-          <div style={{ width: '-webkit-fill-available', height: "500px" }}>
+          <div style={{ width: "-webkit-fill-available", height: "500px" }}>
             <MyResponsiveStream data={streamData} />
           </div>
-          {/* Demo project section */}
-          {/* <div style={{ display: "flex", flexWrap: "wrap", width: "100%" }}>
-            <div  style={{ width: "50%", height: "500px" }}>
-              <img
-              
-                src={Pages.pageA}
-              />
-            </div>
-            <div  style={{ width: "50%", height: "500px" }}>
-              <img
-              
-                src={Pages.pageB}
-              />
-            </div>
-            <div  style={{ width: "50%", height: "500px" }}>
-              <img
-                
-                src={Pages.pageC}
-              />
-            </div>
-            <div  style={{ width: "50%", height: "500px" }}>
-              {" "}
-              <img
-               
-                src={Pages.pageD}
-              />
-            </div>
-          </div> */}
         </div>
-      ) : (
-        <></>
-      )}
+      }
 
-      <MyButton
+      {/* <MyButton
         action={changeProject}
         text={showProjects ? "Hide Projects" : "Show Projects"}
-      />
+      /> */}
     </>
   );
 }
